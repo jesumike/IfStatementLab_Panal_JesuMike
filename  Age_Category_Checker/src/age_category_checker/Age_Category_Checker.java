@@ -4,6 +4,10 @@
  */
 package age_category_checker;
 
+import java.util.Scanner;
+
+
+
 /**
  *
  * @author jesumike
@@ -14,7 +18,22 @@ public class Age_Category_Checker {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //sample code pa ni pang git commit sample
-    }
+    Scanner input = new Scanner(System.in);
+        System.out.println("Enter your age");
+        int age = input.nextInt();
+        if (age<13){
+            System.out.println("You are a child");
+        } else if(age<=19){
+            System.out.println("You are a teenager");
+        } else{
+            System.out.println("You are an adult");
+        }
+        
+        
     
+   }
 }
+    
+    
+    
+
