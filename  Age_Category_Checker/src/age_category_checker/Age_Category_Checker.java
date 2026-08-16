@@ -14,7 +14,7 @@ public class Age_Category_Checker {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //sample code pa ni pang git commit sample
     }
     
 }
